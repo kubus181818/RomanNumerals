@@ -1,0 +1,31 @@
+= Roman numerals converter
+
+Converts arabic numbers between 1 and 255 to roman representation.
+
+== REST API
+
+.request
+include::{snippets}/index/http-request.adoc[]
+
+.requestFields
+include::{snippets}/index/request-parameters.adoc[]
+
+.response
+include::{snippets}/index/http-response.adoc[]
+
+.responseFields
+include::{snippets}/index/response-fields.adoc[]
+
+
+== Troubleshooting
+[#code_1]
+=== Error code 1
+Internal server error
+
+Unknown error has occurred. Please contact with support via email.
+
+[#code_2]
+=== Error code 2
+Validation exception
+
+Please use *integer* value exactly between *1* and *255*
